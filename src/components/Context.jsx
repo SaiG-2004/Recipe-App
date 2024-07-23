@@ -3,7 +3,7 @@
 const Context = () => {
   return (
     <>
-      <div  className="relative flex items-center justify-center h-screen bg-cover bg-center bg-[url('/bg1.png')] my-24">
+      <div  className="relative flex items-center justify-center h-screen bg-cover bg-center bg-[url('/bg1.png')] ">
       <div className=" p-10 my-6 rounded-lg  text-center w-[30%]">
           <h1 className="text-6xl md:text-5xl font-[Poppins] font-semibold mb-4">
             Best food for your taste

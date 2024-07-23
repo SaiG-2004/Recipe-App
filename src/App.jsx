@@ -1,29 +1,30 @@
 import  Navbar  from "./components/Navbar";
-import  Context  from "./components/Context";
 import Menu from "./components/Menu";
 import About from "./components/About";
-import Services from "./components/Services";
-import Content from "./components/Content";
-import Testimonials from "./components/Testimonials";
-import Blogs from "./components/Blogs";
 import Footer from "./components/Footer";
+import Home from "./components/Home";
+import Contact from "./components/Contact";
+import Pages from "./components/Pages";
+
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 function App() {
 
 
   return (
     <>
+     <Router>
      
      <Navbar />
-     <Context />
-     <Menu />
-     <About />
-     <Services />
-     <Content />
-     <Testimonials />
-     <Blogs />
+     <Routes> 
+          <Route path="/" element={<Home/>} />
+          <Route path="/menu" element={<Menu/>} />
+          <Route path="/about" element={<About/>} />
+          <Route path="/contact" element={<Contact/>} />
+          <Route path="/pages" element={<Pages/>} />
+     </Routes>
      <Footer />
-    
+     </Router>
     </>
   )
 }

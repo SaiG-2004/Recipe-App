@@ -24,14 +24,15 @@ const AboutContent2 = () => {
 
   return (
     <>
-      <div className="relative bg-cover bg-center h-screen bg-[url('/a-img2.png')] opacity-50 mt-10">
+      <div className="relative bg-cover bg-center h-screen bg-[url('/a-img2.png')] mt-10">
+        <div className="absolute inset-0 bg-gray-600 opacity-75"></div>
         <div className="relative flex flex-col items-center justify-center h-full text-center  ">
           <button className="mb-6 bg-white text-pink-700 rounded-full p-10">
             <FaPlay />
           </button>
 
           <h1 className="text-6xl  text-white font-[Poppins] ">
-            Feel the authentic & original taste from us
+            Feel the authentic & <br></br> original taste from us
           </h1>
         </div>
       </div>

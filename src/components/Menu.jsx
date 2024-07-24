@@ -109,7 +109,7 @@ const Menu = () => {
         <div className="my-4 items-center flex flex-row justify-center ">
         <button className="bg-white rounded-lg p-6 shadow-lg mx-3"><img src="instacart.png" alt="Instacart" className="w-36"  /></button>
           <button className="bg-white rounded-lg px-9 py-7 shadow-lg mx-3"><img src="justeat.png" alt="Just Eat" className="w-28" /></button>
-          <button className="bg-white rounded-lg p-6 shadow-lg mx-3"><img src="didifood.png" alt="Didi Food" className="w-36"  /></button>
+          <button className="bg-white rounded-lg px-7 py-6 shadow-lg mx-3"><img src="didifood.png" alt="Didi Food" className="w-36"  /></button>
         </div>
         
         

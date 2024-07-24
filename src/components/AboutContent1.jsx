@@ -6,7 +6,7 @@ import { IoMdMail } from "react-icons/io";
 const AboutContent1 = () => {
   return (
     <>
-      <div className="w-full bg-[#f9f9f7]">
+      
         <div className="container mx-auto mt-10 px-40 py-12 flex flex-col lg:flex-row items-center lg:items-start  ">
 
           <div className="md:w-1/2 w-full p-4 relative">
@@ -47,7 +47,7 @@ const AboutContent1 = () => {
            
           </div>
         </div>
-      </div>
+    
     </>
   );
 };

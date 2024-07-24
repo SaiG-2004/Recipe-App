@@ -48,7 +48,7 @@ const Navbar = () => {
             <Link to = {"/pages" } className="text-black-400 hover:bg-gray-400 px-2 py-1 rounded-full">Pages</Link>
             <Link to = {"/contact"} className="text-black-400 hover:bg-gray-400 px-2 py-1 rounded-full">Contact</Link>
           </nav>
-          <a href="/book" className="bg-white-600 hover:bg-gray-400 text-black px-6 py-2 rounded-xl border-2 border-black text-md font-bold">Book A Table</a>
+          <Link to  = {"/book"} className="bg-white-600 hover:bg-gray-400 text-black px-6 py-2 rounded-xl border-2 border-black text-md font-bold">Book A Table</Link>
         </div>
       </div>
     </div>

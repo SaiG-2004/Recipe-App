@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Contact from "./components/Contact";
 import Pages from "./components/Pages";
+import Book from "./components/Book";
 
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
@@ -22,6 +23,8 @@ function App() {
           <Route path="/about" element={<About/>} />
           <Route path="/contact" element={<Contact/>} />
           <Route path="/pages" element={<Pages/>} />
+          <Route path="/book" element={<Book/>} />
+          
      </Routes>
      <Footer />
      </Router>

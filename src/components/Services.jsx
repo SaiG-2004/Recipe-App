@@ -28,11 +28,11 @@ const services = [
 const Services = () => {
   return (
     <section className="py-12 mt-8">
-      <div className="container mx-auto px-40 text-center">
+      <div className="container mx-auto px-10 lg:px-40 text-center">
         <h2 className="text-4xl  mb-10 text-start w-[25rem] font-[Poppins] ">
           We also offer unique services for your events
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-10 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 gap-10 ">
           {services.map((service, index) => (
             <div
               key={index}
@@ -41,7 +41,7 @@ const Services = () => {
               <img
                 src={service.image}
                 alt={service.title}
-                className="w-full h-60 object-cover rounded-lg mb-7 "
+                className="w-full h-60 object-cover rounded-lg lg:mb-7 "
               />
               <div className="py-4 text-start">
                 <h3 className="text-xl font-semibold mb-4">{service.title}</h3>

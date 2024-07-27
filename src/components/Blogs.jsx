@@ -4,10 +4,10 @@ const Blogs = ()=> {
     return(
         <>
        
-        <div className=" px-40 mt-16 mb-10 py-16 bg-[#f9f9f7]  ">
-      <header className="flex justify-between items-center p-4 ">
-        <h1 className="text-5xl font-serif"> Our Blogs & Articles</h1>
-        <button className="bg-red-700 text-white px-4 py-3 rounded-full">Read all articles</button>
+        <div className=" px-10 md:px-20 lg:px-40 mt-16 mb-10 py-16 bg-[#f9f9f7]  ">
+      <header className="flex justify-between items-center lg:p-4 ">
+        <h1 className=" text-2xl lg:text-5xl font-serif"> Our Blogs & Articles</h1>
+        <button className="bg-red-700 text-white text-sm px-2 lg:px-4 py-1 lg:py-3 rounded-full">Read all articles</button>
       </header>
 
       <main className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">

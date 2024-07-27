@@ -27,7 +27,7 @@ const testimonials = [
 const Testimonials = () => {
   return (
     <section className="py-12 ">
-      <div className="container mx-auto px-40 mt-5">
+      <div className="container mx-auto px-10 md:px-20 lg:px-40 mt-5">
         <h2 className="text-5xl text-center mb-12 font-[Poppins]">What Our Customers Say</h2>
         <div className="flex flex-col lg:flex-row lg:space-x-8 space-y-8 lg:space-y-0 ">
           {testimonials.map((testimonial, index) => (

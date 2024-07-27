@@ -4,15 +4,15 @@ const Footer = () => {
   return (
     <>
       <footer className="bg-[#474747] text-white py-8 my-0">
-        <div className="container mx-auto flex justify-evenly items-center px-40">
-          <div className="flex flex-col items-start  lg:w-1/4 mb-28 ">
+        <div className="container flex lg:justify-evenly justify-between items-center px-10 sm:px-20  lg:px-40">
+          <div className="flex flex-col items-start mr-10 lg:w-1/4 w-full mb-10 lg:mb-28 ">
           <div className="flex">
             <img
               src="logo.png"
               alt="Logo"
               className="h-12 w-12 mr-3"
             />
-            <span className="text-3xl font-serif mt-3 italic">Bistro Bliss</span>
+            <span className=" text-xl md:text-3xl font-serif mt-3 italic">Bistro Bliss</span>
             </div>
             <p className="mt-8 text-gray-400">
               In the new era of technology we look a in the future with
@@ -46,7 +46,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="lg:w-1/4 mb-9 px-20">
+          <div className="w-full lg:w-1/4  lg:mb-8 px-5 md:px-10  lg:px-20">
             <p className="mb-6">Pages</p>
             <ul className="text-gray-400">
               <li className="mb-2">
@@ -79,8 +79,8 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="lg:w-1/4 mb-9">
-            <p className="mb-6"> Utility Pages</p>
+          <div className="lg:w-1/4 px-4 md:px-10 hidden sm:block lg:px-20 w-full mt-5 lg:mr-8 lg:mb-9">
+            <p className=" mb-6"> Utility Pages</p>
             <ul className="text-gray-400 ">
               <li className="mb-2">
                 <a href="#">Start Here</a>
@@ -112,34 +112,34 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="  py-4 mt-5  lg:w-1/4">
+          <div className="  py-4 mt-5 hidden w-full  md:block lg:w-1/4">
             <p className="mb-9">Follow Us On Instagram</p>
             <div className="grid grid-cols-2 gap-3 ">
               <img
                 src="f-img1.png"
                 alt="Card"
-                className="h-32 w-34 object-cover rounded-md"
+                className="lg:h-32 lg:w-34 w-28 h-24  object-cover rounded-md"
               />
               <img
                 src="f-img2.png"
                 alt="Card"
-                className="h-32 w-34 object-cover rounded-md"
+                className="lg:h-32 lg:w-34 w-28 h-24  object-cover rounded-md"
               />
               <img
                 src="/f-img3.png"
                 alt="Card"
-                className="h-32 w-34 object-cover rounded-md"
+                className="lg:h-32 lg:w-34 w-28 h-24  object-cover rounded-md"
               />
               <img
                 src="f-img4.png"
                 alt="Card"
-                className="h-32 w-34 object-cover rounded-md"
+                className="lg:h-32 lg:w-34 w-28 h-24  object-cover rounded-md"
               />
             </div>
           </div>
         </div>
 
-        <hr className="w-4/5 mb-4 mt-14 border-gray-700 ml-36" />
+        <hr className="lg:w-4/5 w-3/5 mb-4 mt-14 border-gray-700 ml-36" />
         <div className="text-center mt-9 mb-10">
           <p>&copy; 2024 Hashtag Developer. All Rights Reserved.</p>
         </div>

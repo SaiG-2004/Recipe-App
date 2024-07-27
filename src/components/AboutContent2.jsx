@@ -31,13 +31,13 @@ const AboutContent2 = () => {
             <FaPlay />
           </button>
 
-          <h1 className="text-6xl  text-white font-[Poppins] ">
+          <h1 className=" text-4xl md:text-6xl  text-white font-[Poppins] ">
             Feel the authentic & <br></br> original taste from us
           </h1>
         </div>
       </div>
 
-      <div className="flex justify-around py-12 px-28">
+      <div className="flex flex-col md:flex-row justify-around py-12  lg:px-28">
         {features.map((feature, index) => (
           <div key={index} className=" flex text-start px-10">
             <img

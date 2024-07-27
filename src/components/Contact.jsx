@@ -3,7 +3,7 @@ const Contact = () => {
     <>
       <div className="text-center bg-[#F9F9F7]">
         <div className=" text-center py-10 gap-4 pb-64 ">
-          <h1 className="text-8xl font-[Poppins]"> Contact Us</h1>
+          <h1 className=" text-4xl md:text-8xl font-[Poppins]"> Contact Us</h1>
           <p className="text-md text-gray-600 mt-2 ">
             We consider all the drivers of change gives you the components{" "}
           </p>
@@ -13,7 +13,7 @@ const Contact = () => {
         </div>
 
         <div className="flex justify-center items-center my-9 bg-white py-9">
-          <form className="bg-white p-8 rounded-xl shadow-md w-full max-w-xl mt-[-16rem] text-start">
+          <form className="bg-white p-8 rounded-xl border shadow-md w-full max-w-xl mt-[-16rem] text-start">
             <div className="flex flex-row gap-4 items-center justify-center w-full">
               <div className="mb-4 w-full">
                 <label
@@ -82,7 +82,7 @@ const Contact = () => {
           </form>
 
         </div>
-          <div className="flex flex-row gap-6 justify-center bg-white mt-[-2.3rem] text-start mb-16">
+          <div className="flex flex-col text-center md:flex-row gap-6 md:justify-center bg-white mt-[-2.3rem] md:text-start mb-16">
             <div className="mr-4 py-3">
                 <h2 className="mb-4 font-bold">Call Us:</h2>
                 <p className="text-red-800 font-bold text-lg">+1-234-567-8900</p>

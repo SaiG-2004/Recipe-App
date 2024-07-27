@@ -53,9 +53,7 @@ const AboutContent1 = () => {
             about the overall experience. Our staff, renowned for their warmth
             and dedication, strives to make every visit an unforgettable event.
           </p>
-          <button className=" w-[10rem] text-black px-1 py-3 rounded-full border-2 border-black font-bold  hover:bg-gray-400">
-            More About Us
-          </button>
+          
         </div>
       </div>
     </>

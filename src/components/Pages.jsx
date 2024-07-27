@@ -66,8 +66,8 @@ const Pages = () => {
     <>
       <div className=" text-center py-10 gap-4 ">
         <h1 className=" text-4xl md:text-8xl font-[Poppins]"> Blog & Articles</h1>
-        <p className="text-md text-gray-600 mt-2 ">
-          We consider all the drivers of change gives you the components{" "}
+        <p className=" text-md text-gray-600 mt-2 px-3 ">
+          We consider all the drivers of change gives you the components
         </p>
         <p className="text-md text-gray-600 mt-2 ">
           you need to change to create a truly happens

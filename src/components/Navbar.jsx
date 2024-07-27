@@ -20,7 +20,7 @@ const Navbar = () => {
             <span className="ml-2">yummy@bistrobliss</span>
           </a>
         </div>
-        <div className="flex space-x-4 ml-8 ">
+        <div className="flex space-x-4 mx-6 ">
           <a href="https://twitter.com" className="text-white bg-gray-600 rounded-full p-1">
           <FaTwitter />
 

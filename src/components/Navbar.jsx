@@ -40,12 +40,12 @@ const Navbar = () => {
         </div>
       </div>
       <div className="bg-white text-black my-auto px:10 lg:px-32">
-      <div className="container mx-auto flex justify-between items-center py-0 px-9">
-          <div className="flex items-center space-x-1 lg:space-x-4 overflow-x-auto min-w-fit">
+      <div className="container mx-auto flex justify-between items-center py-0 px-9 ">
+          <div className="flex items-center space-x-1 lg:space-x-4  min-w-fit">
             <img src="japanese-food.png" alt="Bistro Bliss" className="h-8 lg:h-14 " />
             <span className="text-md sm:text:2xl  lg:text-3xl font-bold italic ">Bistro Bliss</span>
           </div>
-          <nav className="flex space-x-1 sm:space-x-3 lg:space-x-6 p-3 sm:p-6  sm:ml-9 md:ml-0 overflow-x-auto">
+          <nav className="flex space-x-1 sm:space-x-3 lg:space-x-6 p-3 sm:p-6  sm:ml-9 md:ml-0 overflow-x-auto ">
             <Link to = {"/"} className={`text-black-400 hover:bg-gray-400 px-2 py-1 rounded-full ${loc.pathname === "/" && "bg-gray-400 "}`}>Home</Link>
             <Link to = {"/about" } className={`text-black-400 hover:bg-gray-400 px-2 py-1 rounded-full ${loc.pathname === "/about" && "bg-gray-400 "}`}>About</Link>
             <Link to = {"/menu" } className={`text-black-400 hover:bg-gray-400 px-2 py-1 rounded-full ${loc.pathname === "/menu" && "bg-gray-400 "}`}>Menu</Link>

@@ -29,7 +29,7 @@ const Services = () => {
   return (
     <section className="py-12 mt-8">
       <div className="container mx-auto px-10 lg:px-40 text-center">
-        <h2 className="text-4xl  mb-10 text-start w-[25rem] font-[Poppins] ">
+        <h2 className=" text-3xl md:text-4xl  mb-10 text-start md:w-[25rem] font-[Poppins] ">
           We also offer unique services for your events
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 gap-10 ">

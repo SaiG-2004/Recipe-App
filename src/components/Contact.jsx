@@ -4,7 +4,7 @@ const Contact = () => {
       <div className="text-center bg-[#F9F9F7]">
         <div className=" text-center py-10 gap-4 pb-64 ">
           <h1 className=" text-4xl md:text-8xl font-[Poppins]"> Contact Us</h1>
-          <p className="text-md text-gray-600 mt-2 ">
+          <p className="text-md text-gray-600 mt-2 px-3 ">
             We consider all the drivers of change gives you the components{" "}
           </p>
           <p className="text-md text-gray-600 mt-2 ">

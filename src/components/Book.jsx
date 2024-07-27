@@ -5,7 +5,7 @@ const Book = () => {
         
         <div className=" text-center py-10 gap-4 pb-64 mb-40  bg-[#f9f9f7]">
           <h1 className=" text-4xl md:text-8xl font-[Poppins]"> Book A Table</h1>
-          <p className="text-md text-gray-600 mt-2 ">
+          <p className="text-md text-gray-600 mt-2 px-3 ">
             We consider all the drivers of change gives you the components{" "}
           </p>
           <p className="text-md text-gray-600 mt-2 ">

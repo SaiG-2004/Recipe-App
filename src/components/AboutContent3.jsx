@@ -9,19 +9,19 @@ const AboutContent3 = () => {
                 <p className="mt-8">At place, we believe that dining is not just about food, but also about the overall experience. Our staff renowned for their warmth and dedication , strives to make every visit an unforgettable event</p>
                 <div className="grid grid-cols-2 gap-6 mt-16 font-medium">
                     <div className="border-2 rounded-lg text-center p-10">
-                        <h2 className="text-4xl md:text-6xl font-[Poppins]">3</h2>
+                        <h2 className="text-3xl md:text-6xl font-[Poppins]">3</h2>
                         <p>Locations</p>
                     </div>
                     <div className="border-2 rounded-lg text-center p-10">
-                        <h2 className="text-4xl md:text-6xl font-[Poppins]">1995</h2>
+                        <h2 className="text-3xl md:text-6xl font-[Poppins] mr-3">1995</h2>
                         <p>Founded</p>
                     </div>
                     <div className="border-2 rounded-lg text-center p-10">
-                        <h2 className="text-4xl md:text-6xl font-[Poppins]">65+</h2>
+                        <h2 className="text-3xl md:text-6xl font-[Poppins]">65+</h2>
                         <p>Staff Members</p>
                     </div>
                     <div className="border-2 rounded-lg text-center p-10">
-                        <h2 className=" text-4xl md:text-6xl font-[Poppins]">100%</h2>
+                        <h2 className=" text-3xl md:text-6xl font-[Poppins]">100%</h2>
                         <p>Satisfied Customers</p>
                     </div>
 

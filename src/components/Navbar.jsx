@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className=" bg-[#474747] text-white w-full h-fit border-red-800 sticky top-0 left-0 z-[999] ">
       <div className="container mx-auto flex flex-row justify-between items-center  py-2 overflow-x-auto lg:py-2 px-10 lg:px-40">
-        <div className="flex items-center mr-2 space-x-4 min-w-fit">
+        <div className="flex items-center  mr-2 space-x-4 min-w-fit">
           <a href="tel:+14148570107" className="flex min-w-fit  items-center">
             <FaPhoneAlt />
             <span className="ml-2 w-fit ">(414) 857-0107</span>
@@ -20,7 +20,7 @@ const Navbar = () => {
             <span className="ml-2">yummy@bistrobliss</span>
           </a>
         </div>
-        <div className="flex space-x-4 ml-4 ">
+        <div className="flex space-x-4 ml-8 ">
           <a href="https://twitter.com" className="text-white bg-gray-600 rounded-full p-1">
           <FaTwitter />
 
